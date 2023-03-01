@@ -59,6 +59,11 @@ variable "admin_password" {
   default     = "Password123!"
 }
 
+variable "resource_group_name" {
+  description = "Resource group name"
+  default     = "thisisthenetworkgroup!"
+}
+
 variable "height" {
   default     = "400"
   description = "Image height in pixels."
